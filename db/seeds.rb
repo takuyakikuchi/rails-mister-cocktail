@@ -1,3 +1,6 @@
+puts 'Cleaning database...'
+Ingredient.destroy_all
+
 puts "Creating ingredients seeds..."
 
 Ingredient.create(name: "lemon")
