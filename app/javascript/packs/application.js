@@ -16,3 +16,10 @@
 // const imagePath = (name) => images(name, true)
 import 'bootstrap';
 console.log('Hello World from Webpacker')
+
+import "select2";
+import "select2/dist/css/select2.min.css";
+
+$(document).ready(function() {
+  $(".select2").select2();
+});
